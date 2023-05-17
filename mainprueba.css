@@ -98,7 +98,7 @@
 }
 
 .container-fluid2 {
-  position: sticky;
+  position: relative;
   top: 0;
   bottom: 0;
   left: 0;
