@@ -1,0 +1,172 @@
+
+#borrar {
+  text-indent: 0px;
+  width: 100px;
+  height: 40px; 
+  border-radius: 5px; 
+  background-color: rgb(253, 100, 100);
+  border: 2px solid rgb(255, 0, 0);
+  font-family: sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+#map {
+  margin: 0 auto;
+  height: 450px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  border: 3px solid black;
+  padding: 10px;
+}
+
+
+#unit-selector {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#BotonNM1 {
+  width: 64px;
+  height: 45px; 
+  background-color: rgb(42, 183, 129);
+  border: 2px solid rgb(86, 165, 49);
+  border-radius: 5px;
+  text-align: center;
+  border: none;
+  color: white;
+  
+  font-size: 0.7em;
+  margin-left: 11px; 
+}
+
+#BotonNM2 {
+  width: 64px; 
+  height: 45px; 
+  background-color: rgb(192, 183, 112);
+  border: 2px solid rgb(208, 162, 11);
+  border-radius: 5px;
+  text-align: center;
+  border: none;
+  color: white;
+  
+  font-size: 0.7em;
+  margin-left: 11px; 
+}
+
+.result1 {
+  border: 2px solid rgb(86, 165, 49);
+  background-color: rgb(206, 224, 204);
+  padding: 10px;
+  margin: 10px auto; 
+  height: 45px;
+  width: 250px;
+  border-radius: 5px;
+
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+ 
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.result1 #distlox {
+  flex: 1;
+  margin: 0 10px; 
+}
+
+
+.result2 {
+  border: 2px solid rgb(208, 162, 11);
+  background-color: rgb(243, 225, 204);
+  padding: 10px;
+  margin: 10px auto; 
+  height: 45px;
+  width: 250px;
+  border-radius: 5px;
+
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.result2 #distlox {
+  flex: 1;
+  margin: 0 10px; 
+}
+
+.result-box {
+  text-align: center; 
+}
+
+.title {
+  font-size: 36px; 
+  font-weight: bold; 
+  color: #2c84c7; 
+  text-align: center;
+  margin-top: 20px;
+  text-shadow: 2px 2px 2px #ccc; 
+  text-decoration: underline;
+}
+
+.subtitle1 {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: rgb(86, 165, 49);
+  text-decoration: underline;
+}
+
+.subtitle2 {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: rgb(208, 162, 11);
+  text-decoration: underline;
+}
+
+.bg-clouds {
+  background-image: url("https://img3.wallspic.com/crops/0/9/6/2690/2690-nube-la_atmosfera_de_la_tierra-aviacion-vuelo-los_viajes_aereos-1920x1200.jpg");
+  background-repeat: repeat;
+  background-size: 100%;
+  background-color: #a3b4dc;
+}
+
+
+.container-fluid {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 95%;
+  height: 95%;
+  background-color: rgba(255, 255, 255, 0.6); 
+  z-index: 9999; 
+}
+
+.rowb {
+  margin-bottom: 20px;
+}
+
+.custom-margin {
+  margin-bottom: 10px; 
+}
+
+
+
+
+
+
+
+
+
