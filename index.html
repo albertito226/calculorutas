@@ -5,6 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <script src="https://www.youtube.com/iframe_api"></script>
     <!-- Leaflet -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
@@ -26,6 +27,7 @@
   </head>
   
   <body class="bg-clouds" >
+    <div id="player"></div>
 
     <div class="container-fluid">
       <h1 class="text-center title">CÁLCULO DE RUTAS</h1>
@@ -47,10 +49,7 @@
                 </div>
               </div>
             </div>
-
-
           </div>
-
 
           <div class="col-sm-6">
             <div class="text-center subtitle2">RUTA ORTODRÓMICA</div>
@@ -66,15 +65,11 @@
                   <button id="BotonNM2">Pulsar para NM</button>
                 </div>
               </div>
-            </div>
-
-
-            
+            </div>  
           </div>
 
         </div>
         
-
         <div class="row">
           <div class="col-sm-12 text-center">
             <div id="map" class="mx-auto"></div>
@@ -90,7 +85,6 @@
     </div>
 
 
-    
       
       <script src="main.js"></script>
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) Cogido de GitHub UPM-->
@@ -100,4 +94,5 @@
       <!-- Agrega Leaflet.Geodesic -->
       <script src="https://cdn.jsdelivr.net/npm/leaflet-geodesic/leaflet-geodesic.js"></script>
   </body>
+  
 </html>
