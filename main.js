@@ -18,6 +18,7 @@ function onYouTubeIframeAPIReady() {
     },
   });
 }
+
     // latitud=phi   longitud=lambda
 
     // Función para calcular el rumbo y la distancia en una ruta loxodrómica
