@@ -81,7 +81,7 @@ function onMapClick(e) {
 
     // Crea un marcador en el punto seleccionado
     var marker1 = L.marker(e.latlng);
-    marker1.bindPopup('Latitud: ' + e.latlng.lat.toFixed(3) + '<br>Longitud: ' + e.latlng.lng.toFixed(3)) //Me pone coordenadas de cada marcador al pulsarlo
+    marker1.bindPopup('<span style="font-size: 12px; font-weight: bold;">Latitud: ' + e.latlng.lat.toFixed(3) + '<br>Longitud: ' + e.latlng.lng.toFixed(3) + '</span>');
     marker1.addTo(mymap);
 
     console.log(`Latitud: ${e.latlng.lat}, Longitud: ${e.latlng.lng}`); //Ya no sirve
