@@ -69,7 +69,7 @@ var marcador2 = L.icon({
   iconSize: [95, 85]
 });
 var marker2 = L.marker([40.440524, -3.724566], {icon: marcador2}).addTo(mymap);
-marker2.bindPopup("<b>Aquí se encuentra la ETSIAE</b><br><a href='https://www.etsiae.upm.es' target='_blank'>Web ETSIAE</a>");
+marker2.bindPopup("<b style='font-size: 14px;'>Aquí se encuentra la ETSIAE</b><br><a href='https://www.etsiae.upm.es' target='_blank'>Web ETSIAE</a>");
 
 //Agregamos un evento que detecta cuando cambia el nivel de zoom del mapa
 mymap.on('zoomend', function() {
