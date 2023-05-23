@@ -1,24 +1,5 @@
 let lat1, lon1, lat2, lon2
 
-//Para poner musiquita
-function onYouTubeIframeAPIReady() {
-  player = new YT.Player('player', {
-    height: '30',
-    width: '30',
-    videoId: '_ueM9sNrSmU',
-    playerVars: {
-      autoplay: 1,
-      controls: 1,
-      loop: 1,
-      playlist: '_ueM9sNrSmU'
-    },
-  });
-}
-
-function onPlayerReady(event) {
-  event.target.playVideo();
-}
-
     // latitud=phi   longitud=lambda
 
     // Función para calcular el rumbo y la distancia en una ruta loxodrómica
